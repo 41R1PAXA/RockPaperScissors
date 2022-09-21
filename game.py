@@ -5,6 +5,8 @@ human_turn = input("Your turn is  ")
 computer_turn = (random.choice(turns))
 print ("Computer turn is " + computer_turn)
 
+print (f'Human: {human_turn} vs. Computer: {computer_turn}')
+
 if human_turn == computer_turn:
     print("DRAW!")
 
